@@ -1,0 +1,236 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "features": "Features",
+    "contact": "Contact",
+    "login": "Login",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "badge": "The Future of HR Management",
+    "title": "Streamline Your HR Operations",
+    "subtitle": "PeopleCore is the all-in-one HR platform that empowers companies to manage their workforce, payroll, attendance, and performance — all in one place.",
+    "cta": "Start Free Trial",
+    "ctaSecondary": "Watch Demo",
+    "trustedBy": "Trusted by 500+ companies worldwide"
+  },
+  "features": {
+    "title": "Everything You Need to Run HR",
+    "subtitle": "A complete suite of HR tools designed for modern teams",
+    "items": {
+      "employees": {
+        "title": "Employee Management",
+        "desc": "Manage employee profiles, contracts, documents and org charts with ease."
+      },
+      "payroll": {
+        "title": "Payroll Processing",
+        "desc": "Automate payroll calculations, tax deductions and salary disbursements."
+      },
+      "attendance": {
+        "title": "Attendance & Leave",
+        "desc": "Track attendance, manage leave requests and monitor absences in real-time."
+      },
+      "performance": {
+        "title": "Performance Reviews",
+        "desc": "Set goals, conduct reviews and track employee performance metrics."
+      },
+      "recruitment": {
+        "title": "Recruitment",
+        "desc": "Post jobs, manage applicants and streamline your hiring process."
+      },
+      "reports": {
+        "title": "Analytics & Reports",
+        "desc": "Get deep insights with customizable dashboards and detailed reports."
+      }
+    }
+  },
+  "whyUs": {
+    "title": "Why Choose PeopleCore?",
+    "subtitle": "Built for businesses of all sizes",
+    "items": {
+      "multiTenant": {
+        "title": "Multi-Company Support",
+        "desc": "Manage multiple companies from a single super admin panel."
+      },
+      "secure": {
+        "title": "Enterprise Security",
+        "desc": "Bank-grade encryption and role-based access control."
+      },
+      "multilang": {
+        "title": "Arabic & English",
+        "desc": "Full RTL support for Arabic and LTR for English, seamlessly."
+      },
+      "cloud": {
+        "title": "Cloud-Based",
+        "desc": "Access your HR data from anywhere, on any device."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "No hidden fees. Cancel anytime.",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "price": "$29",
+        "period": "/month",
+        "desc": "Perfect for small teams",
+        "features": ["Up to 50 employees", "Basic HR tools", "Email support", "1 company"]
+      },
+      "professional": {
+        "name": "Professional",
+        "price": "$79",
+        "period": "/month",
+        "desc": "For growing companies",
+        "features": ["Up to 250 employees", "Full HR suite", "Priority support", "3 companies", "Advanced analytics"]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Custom",
+        "period": "",
+        "desc": "For large organizations",
+        "features": ["Unlimited employees", "Custom integrations", "Dedicated support", "Unlimited companies", "Custom reports", "SLA guarantee"]
+      }
+    },
+    "cta": "Get Started",
+    "popular": "Most Popular"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have questions? Our team is here to help.",
+    "name": "Full Name",
+    "email": "Email Address",
+    "company": "Company Name",
+    "message": "Message",
+    "send": "Send Message",
+    "address": "Address",
+    "phone": "Phone",
+    "emailLabel": "Email"
+  },
+  "footer": {
+    "tagline": "The modern HR platform for forward-thinking companies.",
+    "product": "Product",
+    "company": "Company",
+    "support": "Support",
+    "rights": "All rights reserved.",
+    "links": {
+      "features": "Features",
+      "pricing": "Pricing",
+      "security": "Security",
+      "about": "About Us",
+      "careers": "Careers",
+      "blog": "Blog",
+      "help": "Help Center",
+      "docs": "Documentation",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  },
+  "auth": {
+    "loginTitle": "Welcome back",
+    "loginSubtitle": "Sign in to your account",
+    "email": "Email Address",
+    "password": "Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "loginBtn": "Sign In",
+    "noAccount": "Don't have an account?",
+    "contactAdmin": "Contact your administrator",
+    "forgotTitle": "Reset your password",
+    "forgotSubtitle": "Enter your email and we'll send you a reset link",
+    "sendReset": "Send Reset Link",
+    "backToLogin": "Back to login",
+    "checkEmail": "Check your email",
+    "resetSent": "We've sent a password reset link to your email address.",
+    "emailPlaceholder": "Enter your email",
+    "passwordPlaceholder": "Enter your password"
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "overview": "Overview",
+    "employees": "Employees",
+    "payroll": "Payroll",
+    "attendance": "Attendance",
+    "performance": "Performance",
+    "recruitment": "Recruitment",
+    "reports": "Reports",
+    "settings": "Settings",
+    "companies": "Companies",
+    "users": "Users",
+    "logout": "Logout",
+    "profile": "My Profile",
+    "notifications": "Notifications",
+    "search": "Search...",
+    "totalEmployees": "Total Employees",
+    "activeCompanies": "Active Companies",
+    "pendingLeaves": "Pending Leaves",
+    "monthlyPayroll": "Monthly Payroll",
+    "recentActivity": "Recent Activity",
+    "quickActions": "Quick Actions",
+    "addEmployee": "Add Employee",
+    "runPayroll": "Run Payroll",
+    "approveLeave": "Approve Leave",
+    "viewReports": "View Reports",
+    "thisMonth": "This month",
+    "vsLastMonth": "vs last month",
+    "myAttendance": "My Attendance",
+    "myLeave": "My Leave",
+    "myPayslips": "My Payslips",
+    "myPerformance": "My Performance",
+    "leaveBalance": "Leave Balance",
+    "applyLeave": "Apply for Leave",
+    "daysRemaining": "days remaining",
+    "department": "Department",
+    "position": "Position",
+    "joinDate": "Join Date",
+    "status": "Status",
+    "active": "Active",
+    "inactive": "Inactive",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected"
+  },
+  "about": {
+    "title": "About PeopleCore",
+    "subtitle": "We're on a mission to simplify HR for every company",
+    "story": "Our Story",
+    "storyText": "PeopleCore was founded in 2020 by a team of HR professionals and engineers who understood the pain of outdated, complex HR systems. We built the platform we always wished existed — simple, powerful, and designed for real people.",
+    "mission": "Our Mission",
+    "missionText": "To empower HR teams with intuitive tools that save time, reduce errors, and let them focus on what matters most: their people.",
+    "team": "Meet Our Team",
+    "stats": {
+      "companies": "500+ Companies",
+      "employees": "50,000+ Employees Managed",
+      "countries": "15+ Countries",
+      "uptime": "99.9% Uptime"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "import": "Import",
+    "yes": "Yes",
+    "no": "No",
+    "confirm": "Confirm",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "reset": "Reset",
+    "clear": "Clear",
+    "select": "Select",
+    "noData": "No data available",
+    "error": "An error occurred",
+    "success": "Operation successful"
+  }
+}

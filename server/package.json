@@ -1,0 +1,21 @@
+{
+  "name": "hr-saas-server",
+  "version": "1.0.0",
+  "description": "HR SaaS Backend API",
+  "main": "dist/src/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node src/app.ts",
+    "build": "tsc",
+    "start": "node dist/src/app.js",
+    "db:push": "prisma db push",
+    "db:studio": "prisma studio",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev"
+  },
+  "keywords": ["hr", "saas", "payroll"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
