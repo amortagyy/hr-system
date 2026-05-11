@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 HR SaaS - Production Ready
 
 **Full-Stack HR Management System with JWT Authentication & PostgreSQL**
@@ -103,3 +104,7 @@ pnpm build            # Build for production
 ---
 
 **Ready to go production-ready! 🎉**
+=======
+# hr-system
+hr-system
+>>>>>>> 11ba69e76d624c0ddbaab0397f2c2fd6dcf47313
