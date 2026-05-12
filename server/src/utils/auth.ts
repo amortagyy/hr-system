@@ -15,15 +15,27 @@ export const comparePassword = async (
 };
 
 export const generateToken = (userId: string, role: string): string => {
-  return jwt.sign({ userId, role }, config.jwtSecret, {
-    expiresIn: config.jwtExpire,
-  });
+  if (!config.jwtSecret) {
+    throw new Error('JWT_SECRET is missing');
+  }
+
+  return jwt.sign(
+    { userId, role },
+    config.jwtSecret,
+    {
+      expiresIn: config.jwtExpire || '1d',
+    }
+  );
 };
 
-export const verifyToken = (token: string): any => {
+export const verifyToken = (token: string) => {
+  if (!config.jwtSecret) {
+    throw new Error('JWT_SECRET is missing');
+  }
+
   try {
     return jwt.verify(token, config.jwtSecret);
-  } catch (error) {
+  } catch {
     throw new Error('Invalid token');
   }
 };
