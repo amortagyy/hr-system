@@ -6,9 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "ts-node src/app.ts",
-"scripts": {
-  "build": "next build",
-  "start": "next start -H 0.0.0.0 -p $PORT"  
+    "build": "tsc",
+    "start": "node dist/src/app.js",
     "postinstall": "prisma generate",
     "db:push": "prisma db push",
     "db:studio": "prisma studio",
@@ -30,8 +29,5 @@
     "@types/cors": "^2.8.17",
     "@types/jsonwebtoken": "^9.0.0",
     "prisma": "^5.22.0"
-  },
-  "keywords": ["hr", "saas", "payroll"],
-  "author": "",
-  "license": "MIT"
+  }
 }
